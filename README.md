@@ -26,11 +26,11 @@ Development:
 
 Production:
 
-```yaml
 - role: nginx
   vars:
     nginx_environment: "production"
     nginx_workers: 4
+```
 
 ## Test
 
