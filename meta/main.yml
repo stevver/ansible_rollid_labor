@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  role_name: nginx
+  author: "Stever"
+  description: "Nginx web server for multiple environments"
+  company: "HKHK"
+  license: MIT
+  min_ansible_version: "2.9"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+
+  galaxy_tags:
+    - web
+    - nginx
+    - multienv
+
+dependencies: []
+
