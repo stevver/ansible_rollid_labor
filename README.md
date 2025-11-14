@@ -23,9 +23,11 @@ Development:
   vars:
     nginx_environment: "development"
     nginx_workers: 1
+```
 
 Production:
 
+```yaml
 - role: nginx
   vars:
     nginx_environment: "production"
